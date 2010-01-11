@@ -18,6 +18,6 @@ def install(self, reinstall=False):
     
     for extension_id in EXTENSION_PROFILES:
         portal_setup.runAllImportStepsFromProfile('profile-%s' % extension_id, purge_old=False)
-        product_name = exterion_id.split(':') [0]
+        product_name = extension_id.split(':') [0]
         portal_quickinstaller.notifyInstalled(product_name)
         transaction.savepoint()
