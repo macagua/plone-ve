@@ -1,12 +1,10 @@
 import transaction
 from Products.CMFCore.utils import getToolByName
 
-PRODUCT_DEPENDENCIES = ('canaima.aponwaotheme',)
-
 PRODUCT_DEPENDENCIES = ('RichDocument',
                         'canaima.aponwaotheme',)
 
-#EXTENSION_PROFILES = ('canaima.aponwaopolicy:default',)
+EXTENSION_PROFILES = ('canaima.aponwaopolicy:default',)
 
 def install(self, reinstall=False):
     

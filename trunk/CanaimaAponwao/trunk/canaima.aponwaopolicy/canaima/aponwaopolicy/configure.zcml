@@ -5,9 +5,9 @@
     xmlns:i18n="http://xml.zope.org/namespaces/i18n"
     i18n_domain="canaima.aponwaopolicy">
 
-<!--
+<!-- -->
     <five:registerPackage package="." initialize=".initialize" />
-    -->
+   
     <include package="canaima.aponwaotheme" />
     
     <genericsetup:registerProfile
