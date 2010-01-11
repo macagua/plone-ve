@@ -1,0 +1,11 @@
+Changelog
+=========
+
+    (name of developer listed in brackets)
+
+canaima.aponwaotheme - 0.1 - Unreleased
+---------------------------------------
+
+    - Initial package structure.
+      [zopeskel]
+
