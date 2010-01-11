@@ -7,9 +7,9 @@ logoName:string=logo.jpg
 fontFamily:string="Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif
 fontBaseSize:string=69%
 fontColor:string=Black
-fontSmallSize:string=85%
+fontSmallSize:string=90%
 
-backgroundColor:string=White
+backgroundColor:string=white
 
 linkColor:string=#436976
 linkActiveColor:string=Red
@@ -17,10 +17,10 @@ linkVisitedColor:string=Purple
 
 borderWidth:string=1px
 borderStyle:string=solid
-borderStyleAnnotations:string=dashed
+borderStyleAnnotations:string=solid
 
-globalBorderColor:string=#8cacbb
-globalBackgroundColor:string=#dee7ec
+globalBorderColor:string=#452f27
+globalBackgroundColor:string=#beac83
 globalFontColor:string=#436976
 
 headingFontFamily:string="Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif
@@ -31,9 +31,9 @@ contentViewFontColor:string=#578308
 
 inputFontColor:string=Black
 
-textTransform:string=lowercase
+textTransform:string=none
 
-evenRowBackgroundColor:string=#eef3f5 
+evenRowBackgroundColor:string=#d5c7a6
 oddRowBackgroundColor:string=transparent
 
 notifyBorderColor:string=#ffa500
