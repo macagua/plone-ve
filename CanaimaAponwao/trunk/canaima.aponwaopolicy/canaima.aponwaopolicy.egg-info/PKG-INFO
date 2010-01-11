@@ -1,0 +1,26 @@
+Metadata-Version: 1.0
+Name: canaima.aponwaopolicy
+Version: 0.1dev
+Summary: The main policy of Canaima package
+Home-page: http://plone.net/providers/leonardo-j-caballero-g
+Author: Leonardo J. Caballero G.
+Author-email: lcaballero@cenditel.gob.ve
+License: GPL
+Description: Introduction
+        ============
+        
+        Controls all deployment and dependency related policies for inclusion and exclusion, preconfiguration, defaults, etc.
+        
+        Changelog
+        =========
+        
+        0.1 - Unreleased
+        ----------------
+        
+        * Initial release
+        
+        
+Keywords: web zope plone policy cms canama gnu linux venezuela
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

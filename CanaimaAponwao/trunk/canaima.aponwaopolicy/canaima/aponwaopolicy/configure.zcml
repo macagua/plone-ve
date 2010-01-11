@@ -1,0 +1,21 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+    i18n_domain="canaima.aponwaopolicy">
+
+<!--
+    <five:registerPackage package="." initialize=".initialize" />
+    -->
+    <include package="canaima.aponwaotheme" />
+    
+    <genericsetup:registerProfile
+        name="default"
+        title="CANAIMA GNU/Linux Website Policy"
+        directory="profiles/default"
+        description="Turn a Plone site into a CANAIMA GNU/Linux Website"
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        />
+
+</configure>
