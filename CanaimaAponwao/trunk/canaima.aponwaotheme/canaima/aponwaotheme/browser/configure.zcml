@@ -14,9 +14,18 @@
       type="zope.publisher.interfaces.browser.IBrowserSkinType"
       name="canaima.aponwaotheme"
       />
-  
-  <!-- Viewlets registration -->
-  <!-- EXAMPLE (UNCOMMENT TO MAKE AVAILABLE):
+
+   <!-- Viewlets registration -->
+   <!-- EXAMPLE (UNCOMMENT TO MAKE AVAILABLE):
+
+   <browser:viewlet
+       name="canaima.aponwaotheme.footer"
+       manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+       template="templates/footer.pt"
+       layer=".interfaces.IThemeSpecific"
+       permission="zope2.View"
+       />
+
   <browser:viewlet
       name="canaima.someviewlet"
       manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
@@ -25,6 +34,45 @@
       permission="zope2.View"
       />
   -->
+
+    <browser:viewletManager
+        name="canaima.aponwaotheme.site_logo_manager"
+        provides=".interfaces.ISiteLogo"
+        permission="zope2.View"
+        class="plone.app.viewletmanager.manager.OrderedViewletManager"
+        />
+    <browser:viewlet
+        name="canaima.aponwaotheme.site_logo"
+        manager=".interfaces.ISiteLogo"
+        class=".sitelogo.SiteLogoViewlet"
+        permission="zope2.View"
+        />
+
+    <browser:viewletManager
+        name="canaima.aponwaotheme.site_footer_manager"
+        provides=".interfaces.ISiteFooter"
+        permission="zope2.View"
+        class="plone.app.viewletmanager.manager.OrderedViewletManager"
+        />
+   <browser:viewlet
+       name="canaima.aponwaotheme.site_footer"
+       manager=".interfaces.ISiteFooter"
+       class=".sitefooter.SiteFooterViewlet"
+       permission="zope2.View"
+       />
+
+    <browser:viewletManager
+        name="canaima.aponwaotheme.site_colophon_manager"
+        provides=".interfaces.ISiteColophon"
+        permission="zope2.View"
+        class="plone.app.viewletmanager.manager.OrderedViewletManager"
+        />
+   <browser:viewlet
+       name="canaima.aponwaotheme.site_colophon"
+       manager=".interfaces.ISiteColophon"
+       class=".sitecolophon.SiteColophonViewlet"
+       permission="zope2.View"
+       />
 
   <!-- Zope 3 browser resources -->
 
