@@ -6,7 +6,7 @@
 
   <genericsetup:registerProfile
       name="default"
-      title="canaima.aponwaotheme"
+      title="CANAIMA Aponwao: Visual Theme for Plone 3"
       directory="profiles/default"
       description='Extension profile for the "canaima.aponwaotheme" Plone theme.'
       provides="Products.GenericSetup.interfaces.EXTENSION"
