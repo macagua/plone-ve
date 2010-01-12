@@ -15,6 +15,11 @@
        The 'based-on' attribute lets you inherit the viewlets ordering from an
        existing skin.
        -->
+
+  <order manager="plone.portalheader" skinname="canaima.aponwaotheme" based-on="Plone Default">
+    <viewlet name="canaima.aponwaotheme.site_logo" insert-before="canaima.aponwaotheme" />
+  </order>
+
   <order manager="plone.portalfooter" skinname="canaima.aponwaotheme"
          based-on="Plone Default">
     <!-- The definition of a viewlet accepts these parameters:
@@ -32,6 +37,10 @@
     <viewlet name="canaima.someviewlet"
              insert-before="*" />
 -->
+
+    <viewlet name="canaima.aponwaotheme.site_footer" insert-before="canaima.aponwaotheme" />
+    <viewlet name="canaima.aponwaotheme.site_colophon" insert-before="canaima.aponwaotheme" />
+
   </order>
 
   <hidden manager="plone.portalheader" skinname="canaima.aponwaotheme">
