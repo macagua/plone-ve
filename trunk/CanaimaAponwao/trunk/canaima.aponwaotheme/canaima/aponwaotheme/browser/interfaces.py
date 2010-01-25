@@ -15,12 +15,16 @@ class ISiteLogo(IViewletManager):
     """A viewlet manager to show logo of the site.
     """
 
+class ISiteBanner(IViewletManager):
+    """A viewlet manager to show banner of the site.
+    """
+
 class ISiteFooter(IPortalFooter):
-    """A viewlet manager to show logo of the site.
+    """A viewlet manager to show footer of the site.
     """
 
 class ISiteColophon(IViewletManager):
-    """A viewlet manager to show colophon for anonymous users
+    """A viewlet manager to show colophon of the site.
     """
 
 # Portlet Manager
