@@ -21,3 +21,8 @@ def install(self, reinstall=False):
         product_name = extension_id.split(':') [0]
         portal_quickinstaller.notifyInstalled(product_name)
         transaction.savepoint()
+
+def uninstall(portal):
+    setup_tool = getToolByName(portal, 'portal_setup')
+    setup_tool.runAllImportStepsFromProfile('profile-canaima.aponwaopolicy:uninstall')
+    return "Ran all uninstall steps."
