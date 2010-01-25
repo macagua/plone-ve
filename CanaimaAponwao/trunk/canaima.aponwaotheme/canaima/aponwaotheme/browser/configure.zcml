@@ -49,6 +49,19 @@
         />
 
     <browser:viewletManager
+        name="canaima.aponwaotheme.site_banner_manager"
+        provides=".interfaces.ISiteBanner"
+        permission="zope2.View"
+        class="plone.app.viewletmanager.manager.OrderedViewletManager"
+        />
+    <browser:viewlet
+        name="canaima.aponwaotheme.site_banner"
+        manager=".interfaces.ISiteBanner"
+        class=".sitebanner.SiteBannerViewlet"
+        permission="zope2.View"
+        />
+
+    <browser:viewletManager
         name="canaima.aponwaotheme.site_footer_manager"
         provides=".interfaces.ISiteFooter"
         permission="zope2.View"
