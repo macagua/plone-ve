@@ -2,64 +2,38 @@
      tal:define="portal_url context/portal_url;"
      i18n:domain="canaima.aponwaotheme">
 
-<!--
-<p>El Portal Canaima GNU/Linux está potenciado por <a href="http://wordpress.org/">Wordpress</a>, <a href="http://jquery.com/">jQuery</a> y <a href="index.html">Linux</a>.</p>
--->
-
-<p i18n:translate="label_footer_plonenet">
+<p>
+    <span i18n:translate="label_footer_canaimatheme">
     Este es un portal que ofrece servicio a la
     <a href="http://canaima.softwarelibre.gob.ve/comunidad"
-       i18n:translate="label_plone_comunidad">Comunidad CANAIMA</a>. 
+       i18n:translate="label_canaima_comunidad">Comunidad CANAIMA</a>. 
 
     Algunos derechos reservados - 
     2008-<span i18n:name="current_year"
                tal:omit-tag=""
                tal:define="now modules/DateTime/DateTime"
                tal:content="now/year" />
+    </span>
 
-    <div class="textwidget">
-        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
-          <img src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" alt="Creative Commons License" />
-        </a><br>
-        <span>El contenido del portal</span> del <a rel="cc:attributionURL" href="http://radecon.cenditel.gob.ve/">Proyecto CANAIMA</a> es licenciado bajo la <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.es">Creative Commons Reconocimiento-No comercial-Compartir bajo la misma licencia 3.0 Unported License</a>.
-    </div>
+   <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+     <img src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" alt="Creative Commons License" i18n:attributes="alt img_alt_ccl;" />
+   </a><br />
+
+   <span i18n:translate="label_ccl_portal_content">El contenido del portal del <a rel="cc:attributionURL" href="http://canaima.softwarelibre.gob.ve/">Proyecto CANAIMA</a> es 
+    licenciado bajo la <br /><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.es" i18n:translate="label_ccl_by_nc_sa_30">Creative Commons Reconocimiento-No 
+    comercial-Compartir bajo la misma licencia 3.0 Unported License</a>.
+   </span>
+
 </p>
-<br />
-<p i18n:domain="plone">
-    <span i18n:translate="description_copyright" tal:omit-tag="">
-    The
-    <span i18n:name="plonecms" tal:omit-tag="">
-        <a href="http://plone.org" i18n:translate="label_plone_cms">Plone<sup>&reg;</sup> CMS &mdash; Open Source Content Management System</a>
-    </span>
-    is
-    <acronym title="Copyright" i18n:name="copyright" i18n:attributes="title title_copyright;">&copy;</acronym>
-    2000-<span i18n:name="current_year"
-               tal:omit-tag=""
-               tal:define="now modules/DateTime/DateTime"
-               tal:content="now/year" />
-    by the
-    <span i18n:name="plonefoundation" tal:omit-tag="">
-        <a href="http://plone.org/foundation" i18n:translate="label_plone_foundation">Plone Foundation</a></span>
-    et al.
-    </span>
-</p>
-<br />
-<p i18n:translate="label_footer_copyright">
-  Diseño visual por <a href="http://huntingbears.co.cc/"><span tal:replace="view/designer_theme"> <!-- Luis Alejandro Martínez Faneyth --> </a>.
-  Plone Theme por <a href="http://plone.net/providers/leonardo-j-caballero-g"><span tal:replace="view/developer_plone_theme"><!-- Leonardo J. Caballero G. --> </a>. 
-  El diseñador visual de esta apariencia se baso en un tema WordPress llamado "FREEmium" publicado gratuitamente
-  en el sitio <a href="http://www.freebiesdock.com/">FreebiesDock.com</a> por sus autores: Paul Kadysz
+
+<p>
+    <span i18n:translate="label_footer_copyright" tal:omit-tag="">
+  Diseño visual por <a href="http://huntingbears.co.cc/"><span tal:replace="view/designer_theme" /> <!-- Luis Alejandro Martínez Faneyth --></a>.
+  Plone Theme por <a href="http://plone.net/providers/leonardo-j-caballero-g"><span tal:replace="view/developer_plone_theme" /><!-- Leonardo J. Caballero G. --></a> <br />
+  El diseñador visual de esta apariencia se baso en un tema WordPress llamado "FREEmium" <br />publicado gratuitamente
+  en el sitio <a href="http://www.freebiesdock.com/">FreebiesDock.com</a> por sus autores: <br />Paul Kadysz
   (diseño) y Dariusz Siedlecki (frontend).
+    </span>
 </p>
-<br />
-<!--
-<p class="discreet" i18n:translate="label_footer_discreet">
-    <b>Disclaimer: </b>
-    While the Plone Foundation performs a rudimentary background check on the
-    content contributed to this site to make sure it is legitimate,
-    it does not constitute any kind of endorsement nor responsibility for its
-    accuracy. Use sound judgement when engaging in any business transaction, 
-    as you would anywhere else.
-</p>
--->
+
 </div>
