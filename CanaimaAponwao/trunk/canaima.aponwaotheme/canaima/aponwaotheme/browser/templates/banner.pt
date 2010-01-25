@@ -1,0 +1,85 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      i18n:domain="plone">
+
+  <head><title></title></head>
+  <body>
+
+    <div id="portal-banner" metal:define-macro="portal_banner">
+
+<div id="slider">
+
+<div class="transparency"></div>
+
+<div style="overflow: hidden; position: relative; width: 960px; height: 210px;" id="jFlowSlide"><div id="jFlowSlide"></div><div id="jFlowSlide"></div><div style="overflow: hidden; position: relative; width: 2880px; height: 210px; margin-left: 0px;" class="slides">
+
+<div style="position: relative; width: 960px; height: 210px; float: left;" class="jFlowSlideContainer"><div style="position: relative; width: 960px; height: 210px; float: left;" class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div style="position: relative; width: 960px; height: 210px; float: left;" class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div><p>
+</p><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="slides_image1"></div></div></div></div></div></div></div></div>
+<div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="slides_text1">
+<strong>Canaima GNU/Linux</strong> es una Metadistribución basada en
+Debian desarrollada por una comunidad en constante crecimiento.
+Contiene todas las aplicaciones que necesitas en materia multimedia,
+ofimática, internet y mensajería instantánea. Además:
+<ul class="list_header">
+<li>Es Rápido.</li>
+<li>Es Versátil.</li>
+<li>No tiene Virus.</li>
+<li>Es Gratis.</li>
+</ul>
+</div></div></div></div></div></div></div></div>
+</div></div></div></div></div></div></div></div>
+
+<div style="position: relative; width: 960px; height: 210px; float: left;" class="jFlowSlideContainer"><div style="position: relative; width: 960px; height: 210px; float: left;" class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div style="position: relative; width: 960px; height: 210px; float: left;" class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div><p>
+</p><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="slides_image2"></div></div></div></div></div></div></div></div>
+<div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="slides_text2">
+El <strong>Proyecto Canaima</strong>
+es un movimiento socio-tecnológico abierto, centrado en el desarrollo
+de Sistemas Operativos y aplicaciones enmarcadas dentro del <strong>Software Libre</strong>.<br><br>Actualmente posee una comunidad altamente capacitada y en constante crecimiento. <a href="">{ Ver Más }</a>
+</div></div></div></div></div></div></div></div>
+</div></div></div></div></div></div></div></div>
+
+<div style="position: relative; width: 960px; height: 210px; float: left;" class="jFlowSlideContainer"><div style="position: relative; width: 960px; height: 210px; float: left;" class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div style="position: relative; width: 960px; height: 210px; float: left;" class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div><p>
+</p><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="slides_image3"></div></div></div></div></div></div></div></div>
+<div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="jFlowSlideContainer"><div class="slides_text3">
+lorem ipsum latinus palabris desconocidus <a href="">{ Ver Más }</a>
+</div></div></div></div></div></div></div></div>
+</div></div></div></div></div></div></div></div>
+
+</div></div>
+
+</div>
+
+<div id="upperlabel">
+
+<div id="twitter">
+<b class="b"><b class="b1"><b></b></b><b class="b2"><b></b></b><b class="b3"></b><b class="b4"></b><b class="b5"></b></b>
+<div class="bfg"><a href="http://twitter.com/CanaimaLinux">CanaimaLinux:</a>  Canaima GNU/Linux Estrenando Canal Twitter! <a href="http://twitter.com/CanaimaLinux/statuses/6796530105" class="twitter-link">Ver Más</a> <span class="twitter-timestamp"><abbr title="2009/12/18 08:55:21">2009/12/18</abbr></span></div>
+<b class="b"><b class="b5"></b><b class="b4"></b><b class="b3"></b><b class="b2"><b></b></b><b class="b1"><b></b></b></b>
+</div>
+
+<div id="controller">
+<span class="jFlowControl jFlowSelected">
+<b class="b"><b class="b1"><b></b></b><b class="b2"><b></b></b><b class="b3"></b><b class="b4"></b><b class="b5"></b></b><div class="bfg">
+<a href="#">1</a>
+</div><b class="b"><b class="b5"></b><b class="b4"></b><b class="b3"></b><b class="b2"><b></b></b><b class="b1"><b></b></b></b>
+</span>
+<span class="jFlowControl">
+<b class="b"><b class="b1"><b></b></b><b class="b2"><b></b></b><b class="b3"></b><b class="b4"></b><b class="b5"></b></b><div class="bfg">
+<a href="#">2</a>
+</div><b class="b"><b class="b5"></b><b class="b4"></b><b class="b3"></b><b class="b2"><b></b></b><b class="b1"><b></b></b></b>
+</span>
+<span class="jFlowControl">
+<b class="b"><b class="b1"><b></b></b><b class="b2"><b></b></b><b class="b3"></b><b class="b4"></b><b class="b5"></b></b><div class="bfg">
+<a href="#">3</a>
+</div><b class="b"><b class="b5"></b><b class="b4"></b><b class="b3"></b><b class="b2"><b></b></b><b class="b1"><b></b></b></b>
+</span>
+</div>
+
+</div>
+
+    </div>
+
+  </body>
+</html>
