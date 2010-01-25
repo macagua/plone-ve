@@ -1,0 +1,29 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+    i18n_domain="canaima.aponwaopolicy">
+
+    <!-- Register the installation GenericSetup extension profile -->
+    <genericsetup:registerProfile
+      name="default"
+      title="CANAIMA Aponwao: A Plone policy product"
+      directory="profiles/default"
+      description="Turn a Plone site into a CANAIMA GNU/Linux Website"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      i18n:attributes="title gs_profiles_default_title;
+                       description gs_profiles_default_description;"
+      />
+
+    <!-- Register the uninstall GenericSetup extension profile -->
+    <genericsetup:registerProfile
+      name="uninstall"
+      title="CANAIMA Aponwao: A Plone policy product uninstall"
+      directory="profiles/uninstall"
+      description="Turn a CANAIMA GNU/Linux Website into a Plone site default"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      i18n:attributes="title gs_profiles_uninstall_title;
+                       description gs_profiles_uninstall_description;"
+      />
+
+</configure>
