@@ -34,6 +34,13 @@
              i18n:translate="label_powered_by_plone">
             Powered by Plone</a>.
         </li>
+        <li>
+          <a href="http://canaima.softwarelibre.gob.ve/" i18n:domain="canaima.aponwaotheme"
+             title="This Plone theme is for CANAIMA Proyect Website was built using CANAIMA GNU/Linux. Click for more information."
+             i18n:attributes="title title_built_with_canaima;"
+             i18n:translate="label_powered_by_canaima">
+            Powered by CANAIMA</a>.
+        </li>
 <tal:comment replace="nothing">
         <li>
           <a href="http://validator.w3.org/check/referer"
