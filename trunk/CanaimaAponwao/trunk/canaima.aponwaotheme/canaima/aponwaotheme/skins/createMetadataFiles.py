@@ -3,7 +3,7 @@
 
 import os
 
-file_types = ['.jpg', '.gif', '.png', '.css.dtml', '.css', '.js', '.js.dtml']
+file_types = ['.ico','.jpg', '.gif', '.png', '.css.dtml', '.css', '.js', '.js.dtml']
 cache='HTTPCache'
 
 def metadataContent(id):
