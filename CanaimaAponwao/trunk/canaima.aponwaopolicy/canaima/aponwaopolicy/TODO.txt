@@ -1,0 +1,1 @@
+register a profiles/uninstall for this policy
