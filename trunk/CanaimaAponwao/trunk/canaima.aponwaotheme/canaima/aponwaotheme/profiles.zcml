@@ -6,10 +6,12 @@
 
   <genericsetup:registerProfile
       name="default"
-      title="CANAIMA Aponwao: Visual Theme for Plone 3"
+      title="CANAIMA Aponwao: A visual theme for Plone 3"
       directory="profiles/default"
-      description='Extension profile for the "canaima.aponwaotheme" Plone theme.'
+      description='Visual theme developed by Plone Venezuela Community to CANAMA Project.'
       provides="Products.GenericSetup.interfaces.EXTENSION"
+      i18n:attributes="title gs_profiles_default_title;
+                       description gs_profiles_default_description;"
       />
 
 </configure>
