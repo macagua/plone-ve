@@ -1,10 +1,6 @@
 import transaction
 from Products.CMFCore.utils import getToolByName
-
-PRODUCT_DEPENDENCIES = ('RichDocument',
-                        'canaima.aponwaotheme',)
-
-EXTENSION_PROFILES = ('canaima.aponwaopolicy:default',)
+from canaima.aponwaopolicy.config import *
 
 def install(self, reinstall=False):
     
@@ -17,7 +13,8 @@ def install(self, reinstall=False):
             transaction.savepoint()
     
     for extension_id in EXTENSION_PROFILES:
-        portal_setup.runAllImportStepsFromProfile('profile-%s' % extension_id, purge_old=False)
+        #portal_setup.runAllImportStepsFromProfile('profile-%s' % extension_id, purge_old=False)
+        portal_setup.runAllImportStepsFromProfile('canaima.aponwaopolicy:default', purge_old=False)
         product_name = extension_id.split(':') [0]
         portal_quickinstaller.notifyInstalled(product_name)
         transaction.savepoint()
