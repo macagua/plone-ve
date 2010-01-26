@@ -6,8 +6,13 @@
     i18n_domain="canaima.aponwaotheme">
 
     <five:registerPackage package="." initialize=".initialize" />
+
     <include package=".browser" />
+
     <include file="skins.zcml" />
+
     <include file="profiles.zcml" />
+
+    <i18n:registerTranslations directory="locales" />
 
 </configure>
