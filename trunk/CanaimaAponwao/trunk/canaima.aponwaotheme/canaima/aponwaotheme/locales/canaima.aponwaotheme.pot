@@ -1,0 +1,64 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2010-01-26 02:33+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: canaima.aponwaotheme\n"
+
+#. Default: "Powered by CANAIMA"
+#: ../browser/templates/colophon.pt:38
+msgid "label_colophon_powered_by_canaima"
+msgstr ""
+
+#. Default: "Comunidad CANAIMA"
+#: ../browser/templates/footer.pt:9
+msgid "label_footer_canaima_comunidad"
+msgstr ""
+
+#. Default: "Este es un portal que ofrece servicio a la <a href=\"http://canaima.softwarelibre.gob.ve/comunidad\"> <span>x</span> </a>. Algunos derechos reservados - 2008-${current_year}"
+#: ../browser/templates/footer.pt:13
+msgid "label_footer_canaimatheme"
+msgstr ""
+
+#. Default: "Creative Commons License"
+#: ../browser/templates/footer.pt:20
+msgid "label_footer_ccl_alt"
+msgstr ""
+
+#. Default: "Creative Commons Reconocimiento-No comercial-Compartir bajo la misma licencia 3.0 Unported License"
+#: ../browser/templates/footer.pt:24
+msgid "label_footer_ccl_by_nc_sa_30"
+msgstr ""
+
+#. Default: "El contenido del portal del <a rel=\"cc:attributionURL\" href=\"http://canaima.softwarelibre.gob.ve/\"><span>x</span></a> es licenciado bajo la <br /><a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/3.0/deed.es\">x</a>."
+#: ../browser/templates/footer.pt:24
+msgid "label_footer_ccl_portal_content"
+msgstr ""
+
+#. Default: "Proyecto CANAIMA"
+#: ../browser/templates/footer.pt:23
+msgid "label_footer_ccl_proyecto_canaima"
+msgstr ""
+
+#. Default: "Diseño visual por <a href=\"http://huntingbears.co.cc/\">${label_designer_theme} <!-- Luis Alejandro Martínez Faneyth --></a>. Plone Theme por <a href=\"http://plone.net/providers/leonardo-j-caballero-g\">${label_developer_plone_theme}<!-- Leonardo J. Caballero G. --></a> <br /> El diseñador visual de esta apariencia se baso en un tema WordPress llamado \"FREEmium\" <br />publicado gratuitamente en el sitio <a href=\"http://www.freebiesdock.com/\">FreebiesDock.com</a> por sus autores: <br />Paul Kadysz (diseño) y Dariusz Siedlecki (frontend)."
+#: ../browser/templates/footer.pt:33
+msgid "label_footer_copyright"
+msgstr ""
+
+#. Default: "This Plone theme is for CANAIMA Project Website was built using CANAIMA GNU/Linux. Click for more information."
+#: ../browser/templates/colophon.pt:38
+msgid "title_colophon_built_with_canaima"
+msgstr ""
+

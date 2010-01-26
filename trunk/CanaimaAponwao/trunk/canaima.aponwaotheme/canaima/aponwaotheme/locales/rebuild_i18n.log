@@ -1,0 +1,48 @@
+../profiles/default/import_steps.xml:3:2:
+-ERROR- - title attribute of <import-step> lacks i18n:attributes
+-------------------------------------------------------------------------------
+../profiles/default/import_steps.xml:10:2:
+-ERROR- - i18n:translate missing for this:
+"""
+Various import steps that are not handled by GS import/export
+    handlers.
+"""
+-------------------------------------------------------------------------------
+Processing of ../profiles/default/import_steps.xml finished. (0 warnings, 2 errors)
+===============================================================================
+Processing of ../profiles/default/viewlets.xml finished. (0 warnings, 0 errors)
+===============================================================================
+Processing of ../profiles/default/skins.xml finished. (0 warnings, 0 errors)
+===============================================================================
+Processing of ../profiles/default/jsregistry.xml finished. (0 warnings, 0 errors)
+===============================================================================
+Processing of ../profiles/default/cssregistry.xml finished. (0 warnings, 0 errors)
+===============================================================================
+../profiles/default/metadata.xml:3:17:
+-ERROR- - i18n:translate missing for this:
+"""
+0.1dev
+"""
+-------------------------------------------------------------------------------
+Processing of ../profiles/default/metadata.xml finished. (0 warnings, 1 errors)
+===============================================================================
+Processing of ../configure.zcml finished. (0 warnings, 0 errors)
+===============================================================================
+Processing of ../profiles.zcml finished. (0 warnings, 0 errors)
+===============================================================================
+../skins/canaima_aponwaotheme_styles/portlets.css.dtml:1:159:
+-FATAL- - ERROR in document:
+<unknown>:1:159: not well-formed (invalid token)
+===============================================================================
+../skins/canaima_aponwaotheme_styles/base.css.dtml:1:159:
+-FATAL- - ERROR in document:
+<unknown>:1:159: not well-formed (invalid token)
+===============================================================================
+../skins/canaima_aponwaotheme_styles/public.css.dtml:1:159:
+-FATAL- - ERROR in document:
+<unknown>:1:159: not well-formed (invalid token)
+===============================================================================
+Processing of ../browser/configure.zcml finished. (0 warnings, 0 errors)
+===============================================================================
+Processing of ../skins.zcml finished. (0 warnings, 0 errors)
+===============================================================================
