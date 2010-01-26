@@ -5,11 +5,11 @@ plone_skin:string=canaima.aponwaotheme
 logoName:string=logo.jpg
 
 fontFamily:string="Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif
-fontBaseSize:string=69%
+fontBaseSize:string=62.5%
 fontColor:string=Black
 fontSmallSize:string=90%
 
-backgroundColor:string=white
+backgroundColor:string=#756540
 
 linkColor:string=#436976
 linkActiveColor:string=Red
@@ -29,7 +29,7 @@ contentViewBorderColor:string=#74ae0b
 contentViewBackgroundColor:string=#cde2a7
 contentViewFontColor:string=#578308
 
-inputFontColor:string=Black
+inputFontColor:string=#675733
 
 textTransform:string=none
 
