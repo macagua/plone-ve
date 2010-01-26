@@ -1,0 +1,57 @@
+LEEME para el directorio 'browser/images/'
+==========================================
+
+Esta carpeta es un Directorio de Recursos Zope 3 actuando como un repositorio de imágenes.
+
+Su declaración se encuentra en el archivo 'browser / configure.zcml':
+
+    <!-- Resource directory for images -->
+    <browser:resourceDirectory
+        name="canaima.aponwaotheme.images"
+        directory="images"
+        layer=".interfaces.IThemeSpecific"
+        />
+
+Una imagen colocada en este directorio (por ejemplo, 'logo.png') se puede 
+acceder desde esta dirección URL relativa:
+
+    "++resource++canaima.aponwaotheme.images/logo.png"
+
+Tenga en cuenta que podría ser mejor el registrar cada uno de estos recursos por separado 
+si quieren que sean reemplazables de las directivas zcml.
+
+La única forma de anular un recurso en un directorio de recursos es para invalidar 
+todo el directorio (todos los elementos tienen que ser copiado).
+
+Un de los recursos del navegador Zope 3 declarado, es como siguiente 
+dentro del archivo 'browser/configure.zcml':
+
+    <browser:resource
+        name="logo.png"
+        file="images/logo.png"
+        layer=".interfaces.IThemeSpecific"
+        />
+
+se puede acceder desde esta dirección URL relativa:
+
+    "++resource++logo.png"
+
+Notas
+-----
+
+* Cualquiera que sea la forma en que se declaró (todos dentro de un directorio de recursos 
+  o los recursos por separado), las imágenes registradas como recursos de navegador Zope 3
+  no tiene todos los atributos que tiene los objetos imagenes de Zope 2 (es decir, 
+  la propiedad 'title' y los metodos 'tag()' y 'get_size()').
+  Esto significa que si desea que la etiqueta HTML de la imagen seá auto-generada 
+  (este es el caso por defecto para el logotipo del portal), debe almacenarla en un 
+  directorio que se encuentra en la carpeta 'skins/' de su paquete, registrada como 
+  un 'File System Directory View' en la herramienta 'portal_skins', y agregarla a las 
+  capas de la skin (tema).
+
+* Personalización / primordiales imágenes que son originalmente se accede desde 
+  la herramienta 'portal_skins' (por ejemplo, el logotipo y los iconos por defecto 
+  de Plone) se puede hacer dentro de esa única herramienta. No se conoce ninguna 
+  forma de hacerlo con los recursos de navegador Zope 3.
+  Y viceversa, tampoco no se conoce (fácilmente) la manera de anular un recurso 
+  de navegador Zope 3 desde una capa del tema (skin layer) en la herramienta 'portal_skins.
