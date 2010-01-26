@@ -8,6 +8,31 @@
 /* YOUR CSS RULES START HERE */
 
 
+body {
+    font: &dtml-fontBaseSize; <dtml-var fontFamily>;
+    color: &dtml-fontColor;;
+    background-color: &dtml-backgroundColor;;
+    background-image: url(background.png);
+    background-position: left top;
+    background-repeat: repeat-x;
+    margin: 0;
+    padding: 0;
+}
+
+
+input {
+    font-family: <dtml-var fontFamily>;
+    visibility: visible;
+    border: 1px solid #ddd;
+    border-color:#666 #ddd #ddd #666;
+    color: &dtml-inputFontColor;;
+    vertical-align: middle;
+    /*background: White url(&dtml-portal_url;/input_background.gif) repeat-x;*/
+    background: White url(search_input.gif) repeat-x;
+    background-color: #d6b985;
+    font-size: 1em;
+}
+
 
 /* YOUR CSS RULES STOP HERE */
 
