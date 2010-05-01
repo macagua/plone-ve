@@ -111,7 +111,6 @@
    <property name="permissions">
     <element value="View"/>
    </property>
-<!--   <property name="visible">True</property> -->
    <property name="visible">False</property>
   </object>
   <object name="plone_setup" meta_type="CMF Action" i18n:domain="plone">

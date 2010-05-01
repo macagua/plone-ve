@@ -11,6 +11,18 @@ class TestSetup(CanaimaAponwaoPolicyTestCase):
         self.assertEquals("Bienvenidos al portal del proyecto CANAIMA",
                           self.test_portal.getProperty('description'))
         
+    def test_default_page(self):
+        self.assertEquals("front-page",
+                          self.test_portal.getProperty('default_page'))
+        
+    def test_email_from_address(self):
+        self.assertEquals("canaima@canaima.softwarelibre.gob.ve",
+                          self.test_portal.getProperty('email_from_address'))
+        
+    def test_email_from_name(self):
+        self.assertEquals("Canaima CMS",
+                          self.test_portal.getProperty('email_from_name'))
+        
     def test_suite():
         suite = unittest.TestCase()
         suite.addTest(unittest.makeSuite(TestSetup))

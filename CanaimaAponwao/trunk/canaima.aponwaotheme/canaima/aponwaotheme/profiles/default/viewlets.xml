@@ -17,7 +17,8 @@
        -->
 
   <order manager="plone.portalheader" skinname="canaima.aponwaotheme" based-on="Plone Default">
-    <viewlet name="canaima.aponwaotheme.site_logo" insert-before="canaima.aponwaotheme" />
+    <viewlet name="canaima.aponwaotheme.site_logo" insert-before="plone.site_actions" />
+    <viewlet name="canaima.aponwaotheme.site_banner" insert-after="canaima.aponwaotheme.site_logo" />
   </order>
 
   <order manager="plone.portalfooter" skinname="canaima.aponwaotheme"
@@ -38,8 +39,8 @@
              insert-before="*" />
 -->
 
-    <viewlet name="canaima.aponwaotheme.site_footer" insert-before="canaima.aponwaotheme" />
-    <viewlet name="canaima.aponwaotheme.site_colophon" insert-before="canaima.aponwaotheme" />
+    <viewlet name="canaima.aponwaotheme.site_footer" insert-before="plone.colophon" />
+    <viewlet name="canaima.aponwaotheme.site_colophon" insert-later="*" />
 
   </order>
 
