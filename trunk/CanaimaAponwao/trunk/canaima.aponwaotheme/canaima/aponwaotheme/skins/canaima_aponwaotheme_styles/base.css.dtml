@@ -7,18 +7,69 @@
 
 /* YOUR CSS RULES START HERE */
 
-
-body {
-    font: &dtml-fontBaseSize; <dtml-var fontFamily>;
-    color: &dtml-fontColor;;
-    background-color: &dtml-backgroundColor;;
-    background-image: url(background.png);
-    background-position: left top;
-    background-repeat: repeat-x;
-    margin: 0;
-    padding: 0;
+*
+{
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent
 }
 
+table,tr,td
+{
+	vertical-align:top;
+	border-collapse:collapse;
+	border-spacing:0
+}
+
+ol,ul
+{
+	list-style:none
+}
+
+blockquote,q
+{
+	quotes:none
+}
+
+blockquote:before,blockquote:after,q:before,q:after
+{
+	content:''
+}
+
+:focus
+{
+	outline:0
+}
+
+ins
+{
+	text-decoration:none
+}
+
+del
+{
+	text-decoration:line-through
+}
+
+form
+{
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0
+}
+
+body {
+    line-height:1;
+	background:url(background.png) repeat-x &dtml-backgroundColor;;
+	font-size:62.5%;
+	font-family:"DejaVu Sans", "Microsoft Sans Serif", verdana, sans-serif;
+	text-align:center
+}
 
 input {
     font-family: <dtml-var fontFamily>;
@@ -31,6 +82,92 @@ input {
     background: White url(search_input.gif) repeat-x;
     background-color: #d6b985;
     font-size: 1em;
+}
+
+
+#portal-header
+{
+	float:left;
+	margin-top:5px;
+	width:100%;
+	text-align:left;
+	padding:5px;
+	background:#e2dac7;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-khtml-border-radius:5px
+}
+
+#menu
+{
+	background:#a6ba00;
+	border-top:4px solid #889800;
+	height:50px;
+	float:left;
+	width:960px;
+	font-weight:700;
+	text-transform:uppercase;
+	font-size:1.8em;
+	margin-top:10px
+}
+
+#menu ul
+{
+	background:#a6ba00;
+	margin-left:10px;
+	padding:0 10px;
+	position:relative;
+	float:left;
+	line-height:50px
+}
+
+#menu ul li
+{
+	float:left;display:inline;
+}
+
+#menu ul li a
+{
+	color:#FFF;
+	outline:none;
+	text-align:center;
+	display:block;
+	overflow:hidden;
+	float:left;
+	z-index:10;
+	padding:0 10px;
+	position:relative;
+	text-shadow: -1px 1px 1px #444;
+}
+
+#menu ul li a:hover
+{
+	text-decoration:none
+}
+
+#menu ul li.back
+{
+	background:url(lava.gif) no-repeat right -28px;
+	width:9px;
+	height:28px;
+	position:absolute;
+	z-index:8;
+	top:11px
+}
+
+#menu ul li.back .left
+{
+	background:url(lava.gif) no-repeat top left;
+	height:28px;
+	margin-right:9px
+}
+
+#menu ul li.current_page_item
+{
+	background:url(menu_selected.gif) no-repeat center bottom;
+	padding-bottom:13px;
+	margin-bottom:-13px
 }
 
 
