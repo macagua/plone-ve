@@ -71,6 +71,8 @@ body {
 	text-align:center
 }
 
+#visual-portal-wrapper { margin: 0px auto; width: 960px; }
+
 input {
     font-family: <dtml-var fontFamily>;
     visibility: visible;
@@ -85,7 +87,7 @@ input {
 }
 
 
-#portal-header
+#portal-header_
 {
 	float:left;
 	margin-top:5px;
@@ -96,7 +98,8 @@ input {
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 	border-radius:5px;
-	-khtml-border-radius:5px
+	-khtml-border-radius:5px;
+	width: 960px;
 }
 
 #menu
@@ -170,6 +173,50 @@ input {
 	margin-bottom:-13px
 }
 
+#portal-searchbox
+{
+	float:left;
+	margin-top:5px;
+	width:100%;
+	text-align:left;
+	padding:5px;
+	background:#e2dac7;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-khtml-border-radius:5px;
+	width: 950px;
+}
+
+#searchGadget
+{
+	width:290px;
+	height:20px;
+	border:0;
+	padding:0;
+	margin:0;
+	color:#ddd;
+	font-weight:700;
+	font-size:1.8em;
+	font-family:"DejaVu Sans", "Microsoft Sans Serif", verdana, sans-serif;
+	background:#fff;
+	padding:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-khtml-border-radius:5px;
+	border: 1px solid #fff !important;
+}
+
+input.searchButton
+{
+
+display:none
+}
+
+h1 { float: left; display:block;width:630px;font-family: sans-serif; /*padding:0px 0px 0px 160px;margin:5px 10px; background: url("img/logo.png") no-repeat left center;*/}
+h1 a { color: #4f401e;font-size: 3em;font-weight: bold;font-family: sans-serif; }
+h1 a:hover { text-decoration: none; color: #000; }
 
 /* YOUR CSS RULES STOP HERE */
 
