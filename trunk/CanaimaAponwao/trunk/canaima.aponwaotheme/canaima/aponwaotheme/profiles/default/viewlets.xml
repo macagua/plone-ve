@@ -20,7 +20,12 @@
     <viewlet name="canaima.aponwaotheme.site_logo" insert-before="plone.site_actions" />
     <viewlet name="canaima.aponwaotheme.site_banner" insert-after="canaima.aponwaotheme.site_logo" />
   </order>
+  
+  <order manager="plone.contentviews" skinname="canaima.aponwaotheme" based-on="Plone Default">
+    <viewlet name="canaima.aponwaotheme.global_sections" insert-before="plone.contentviews" />
+  </order>
 
+  
   <order manager="plone.portalfooter" skinname="canaima.aponwaotheme"
          based-on="Plone Default">
     <!-- The definition of a viewlet accepts these parameters:
@@ -45,9 +50,9 @@
   </order>
 
   <hidden manager="plone.portalheader" skinname="canaima.aponwaotheme">
-<!-- EXAMPLE (UNCOMMENT TO MAKE AVAILABLE):
-    <viewlet name="plone.global_sections" />
--->
+
+    <!--<viewlet name="plone.global_sections" />-->
+
   </hidden>
 
 </object>

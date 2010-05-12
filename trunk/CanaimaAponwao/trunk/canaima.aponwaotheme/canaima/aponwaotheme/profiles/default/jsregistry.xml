@@ -34,18 +34,22 @@
  <javascript 
     id="++resource++canaima.aponwaotheme.javascripts/jquery-1.js"
     cacheable="False" compression="safe" cookable="False"
-    enabled="True" expression=""  inline="False"/>-->
- <javascript 
-    id="++resource++canaima.aponwaotheme.javascripts/scripts.js"
-    cacheable="False" compression="safe" cookable="False"
     enabled="True" expression=""  inline="False"/>
  <javascript 
     id="++resource++canaima.aponwaotheme.javascripts/slimbox2.js"
     cacheable="False" compression="safe" cookable="False"
-    enabled="True" expression=""  inline="False"/>
+    enabled="True" expression=""  inline="False"/>-->
  <javascript 
     id="++resource++canaima.aponwaotheme.javascripts/clock.js"
     cacheable="False" compression="safe" cookable="False"
+    enabled="True" expression=""  inline="False"/>
+ <javascript 
+    id="++resource++canaima.aponwaotheme.javascripts/scripts.js"
+    cacheable="False" compression="none" cookable="False"
+    enabled="True" expression=""  inline="False"/>
+ <javascript 
+    id="++resource++canaima.aponwaotheme.javascripts/jflow.js"
+    cacheable="False" compression="none" cookable="False"
     enabled="True" expression=""  inline="False"/>
 
 </object>
