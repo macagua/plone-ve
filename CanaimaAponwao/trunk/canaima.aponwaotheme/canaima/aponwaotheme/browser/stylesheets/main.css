@@ -185,7 +185,7 @@ h1 { float: left; display:block;font-family: sans-serif;}
 h1 a { color: #4f401e;font-size: 3em;font-weight: bold;font-family: sans-serif; }
 h1 a:hover { text-decoration: none; color: #000; }
 .documentDescription, .documentByLine{
-	margin:0px 25px;float:left;width:505px;
+	margin:0px 15px;float:left;width:505px;
 }
 #clock{width: 300px; text-align:left;color: #000;}
 
