@@ -41,11 +41,11 @@
     enabled="True" expression=""  inline="False"/>-->
  <javascript 
     id="++resource++canaima.aponwaotheme.javascripts/clock.js"
-    cacheable="False" compression="safe" cookable="False"
+    cacheable="True" compression="none" cookable="False"
     enabled="True" expression=""  inline="False"/>
  <javascript 
     id="++resource++canaima.aponwaotheme.javascripts/scripts.js"
-    cacheable="False" compression="none" cookable="False"
+    cacheable="True" compression="none" cookable="False"
     enabled="True" expression=""  inline="False"/>
  <javascript 
     id="++resource++canaima.aponwaotheme.javascripts/jflow.js"

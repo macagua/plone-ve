@@ -16,16 +16,9 @@
       />
 
    <!-- Viewlets registration -->
-   <!-- EXAMPLE (UNCOMMENT TO MAKE AVAILABLE):
+   <!-- EXAMPLE (UNCOMMENT TO MAKE AVAILABLE):-->
 
-   <browser:viewlet
-       name="canaima.aponwaotheme.footer"
-       manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
-       template="templates/footer.pt"
-       layer=".interfaces.IThemeSpecific"
-       permission="zope2.View"
-       />
-
+   <!--
   <browser:viewlet
       name="canaima.someviewlet"
       manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
@@ -67,11 +60,12 @@
         permission="zope2.View"
         class="plone.app.viewletmanager.manager.OrderedViewletManager"
         />
-   <browser:viewlet
+  <browser:viewlet
        name="canaima.aponwaotheme.site_footer"
        manager=".interfaces.ISiteFooter"
        class=".sitefooter.SiteFooterViewlet"
        permission="zope2.View"
+       for="*"
        />
 
     <browser:viewletManager

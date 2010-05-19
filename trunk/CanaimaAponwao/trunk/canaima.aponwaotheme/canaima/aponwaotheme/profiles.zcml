@@ -8,7 +8,7 @@
       name="default"
       title="CANAIMA Aponwao: A visual theme for Plone 3"
       directory="profiles/default"
-      description='Visual theme developed by Plone Venezuela Community to CANAMA Project.'
+      description='Visual theme developed by Plone Venezuela Community to CANAIMA Project.'
       provides="Products.GenericSetup.interfaces.EXTENSION"
       i18n:attributes="title gs_profiles_default_title;
                        description gs_profiles_default_description;"
