@@ -1,9 +1,9 @@
-#summary One-sentence summary of this page.
+#summary Proyecto social comunitario para la mejora de su portal web del [http://www.iutep.tec.ve/ IUTEP].
 #labels Featured,Phase-Design,Phase-Requirements
 
 = Introducción =
 
-Este proyecto social comunitario, tiene como sentido acompañar al [http://www.iutep.tec.ve/ Instituto Universitario de Tecnologia del Estado Portuguesa - IUTE], en los procesos de mejora de su portal web.
+Este proyecto social comunitario, tiene como sentido acompañar al [http://www.iutep.tec.ve/ Instituto Universitario de Tecnología del Estado Portuguesa - IUTEP], en los procesos de mejora de su portal web.
 
 = Detalles =
 
@@ -12,17 +12,14 @@ Previamente Javier E. Leon estudiante de informática del PNFI de dicho institut
 = Necesidades =
 
   * Publicar información de cada departamento académico en la Web.
-  * Establecer la información organizacional del IUTE, organigrama y los medios de contactos con estos.
+  * Establecer la información organizacional del IUTEP, organigrama y los medios de contactos con estos.
   * Sistemas de cronograma de noticias, eventos e actividades de la comunidad universitario.
   * Publicación e integración con mecanismos Web 2.0, para poder difundir la información generada por universidad.
-  * Espacios para los docentes y estudiantes del IUTE.
+  * Espacios para los docentes y estudiantes del IUTEP.
 
-== Compromisos del personal del IUTE ==
+== Compromisos del personal del IUTEP ==
 
-  * Instalar localmente en un entorno de pruebas un Plone con Instalador Unificado.
-  * Estudiar y evaluar posibles productos de Plone para sus necesidades.
-  * Migrar sus contenidos hacia una instalación de Plone.
-  * Sustituir en sitio actual de [http://www.iutep.tec.ve/ IUTEP] por un Plone ;) .
+  * Por definir.
 
 == Responsables ==
 
