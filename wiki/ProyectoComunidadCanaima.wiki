@@ -1,4 +1,5 @@
 #summary Proyecto social comunitario para la mejora del portal del proyecto Canaima GNU/Linux.
+#labels Featured,Phase-Requirements,Phase-Implementation,Phase-Deploy,Phase-QA,Phase-Support
 
 = Introducción =
 
