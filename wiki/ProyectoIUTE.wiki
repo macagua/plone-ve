@@ -3,7 +3,7 @@
 
 = Introducción =
 
-Este proyecto social comunitario, tiene como sentido acompañar al departamento de sistematización del [http://www.iute.tec.ve/ Instituto Universitario Tecnológico de Ejido], en estado Mérida, en los procesos de adopción de su portal web.
+Este proyecto social comunitario, tiene como sentido acompañar al departamento de sistematización del [http://www.iute.tec.ve/ Instituto Universitario Tecnológico de Ejido -IUTE], en estado Mérida, en los procesos de adopción de su portal web.
 
 = Detalles =
 
