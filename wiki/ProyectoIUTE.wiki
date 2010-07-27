@@ -1,0 +1,34 @@
+#summary One-sentence summary of this page.
+#labels Featured,Phase-QA,Phase-Implementation,Phase-Deploy
+
+= Introducción =
+
+Este proyecto social comunitario, tiene como sentido acompañar al departamento de sistematización del [http://www.iute.tec.ve/ Instituto Universitario Tecnológico de Ejido], en estado Mérida, en los procesos de adopción de su portal web.
+
+= Detalles =
+
+Previamente personal del departamento de sistematización del IUTE, participo en la formación dictada en la [http://wiki.canaima.softwarelibre.gob.ve/wiki/index.php/Cayapa_plone Cayapa de Plone en Mérida] organizada por la [http://canaima.softwarelibre.gob.ve/ comunidad de Canaima].
+
+= Necesidades =
+
+  * Publicar información de cada departamento académico en la Web.
+  * Establecer la información organizacional del IUTE, organigrama y los medios de contactos con estos.
+  * Sistemas de cronograma de noticias, eventos e actividades de la comunidad universitario.
+  * Publicación e integración con mecanismos Web 2.0, para poder difundir la información generada por universidad.
+  * Espacios para los docentes y estudiantes del IUTE.
+
+== Compromisos del personal del IUTE ==
+
+  * Instalar localmente en su Intranet un Plone con Instalador Unificado.
+  * Estudiar y evaluar posibles productos de Plone para sus necesidades.
+  * Migrar sus contenidos hacia una instalación de Plone.
+  * Sustituir en sitio actual de [http://www.iute.tec.ve/ IUTE] por un Plone ;) .
+
+== Responsables ==
+
+  * "Flamel Canto" <flamelcanto at gmail dot com> - Departamento de sistematización IUTE.
+  * "Leonardo J. Caballero G." <lcaballero at cenditel dot gob dot ve> - CENDITEL.
+
+== Colaboradores ==
+
+  * Puedes ser tu!!! simplemente anota tu nombre aquí y contactamos a los correos previos.
