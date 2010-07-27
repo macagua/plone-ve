@@ -5,17 +5,23 @@
 
 Este proyecto social comunitario, tiene como sentido acompañar al [http://www.iutep.tec.ve/ Instituto Universitario de Tecnología del Estado Portuguesa - IUTEP], en los procesos de mejora de su portal web.
 
+El Instituto Universitario Tecnológico del Estado Portuguesa (IUTEP), actualmente el IUTEP atiende una matrícula de 7.120 alumnos en las especialidades de: Tecnología Agropecuaria ( Mención: Producción Animal, Producción Vegetal y Agroindustrial), Tecnología de Administración (Mención: Administración de Empresas, Administración Tributaria y Mercadotecnia), Informática, Agroforestal y Mantenimiento de Equipos electromecánicos., se encuentra en el proceso de adopción de los Programas Nacionales de Formación en: Lic. Administración, Ing. Eléctrica, Ing. Mecánica, Ing. Mantenimiento, Ing. Informática. 
+
+Siendo este portal el sitio de referencia de la institución, institución que forma profesionales en el área de las TIC, requiere repensar el objetivo de dicho portal y tomar en cuenta los avances tecnológicos de los últimos tiempos y relacionarlo con lo que actualmente se conoce como la web social o la web 2.0, que en el área del desarrollo web promueve el uso de nuevos métodos y tecnologías en aras de mejorar la experiencia del usuario y permitir una relación más social al momento de compartir información.
+
 = Detalles =
 
 Previamente Javier E. Leon estudiante de informática del PNFI de dicho instituto y a la ves miembro de la comunidad PloneVe contacta vía chat a Leonardo J. Caballero G. y le plantea la iniciativa de cooperar en la mejora del sitio actual de [http://www.iutep.tec.ve/ IUTEP], como proyecto social.
 
 = Necesidades =
 
+  * Permite a usuarios no técnicos crear, editar y Eliminar contenido de una manera fácil y rápida. 
   * Publicar información de cada departamento académico en la Web.
   * Establecer la información organizacional del IUTEP, organigrama y los medios de contactos con estos.
-  * Sistemas de cronograma de noticias, eventos e actividades de la comunidad universitario.
-  * Publicación e integración con mecanismos Web 2.0, para poder difundir la información generada por universidad.
-  * Espacios para los docentes y estudiantes del IUTEP.
+  * Sistemas de cronograma de noticias, eventos y actividades de la comunidad universitario.
+  * Publicación e integración con mecanismos Web 2.0, para poder difundir la información generada por la universidad (Redes Sociales).
+  * Espacios para los docentes y estudiantes del IUTEP mediante la creación de KMS (Sistema de Gestión del Conocimiento: Wikis, Blogs, Intranet, Gestión de Publicaciones, Galerías de Imágenes, Vídeos, chat, Directorios, Calendario de Eventos).
+  * Promover la implementación de un LMS(Sistema de Gestión de Aprendizaje) y OER(Recursos Educativos Abiertos) para actividades de extensión dentro de la Institución.
 
 == Compromisos del personal del IUTEP ==
 
