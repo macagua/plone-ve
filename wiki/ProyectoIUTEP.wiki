@@ -1,4 +1,4 @@
-#summary Proyecto social comunitario para la mejora de su portal web del [http://www.iutep.tec.ve/ IUTEP].
+#summary Proyecto social comunitario para la mejora del portal web [http://www.iutep.tec.ve/ IUTEP].
 #labels Featured,Phase-Design,Phase-Requirements
 
 = Introducción =
