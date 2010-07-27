@@ -1,4 +1,4 @@
-#summary Proyecto social comunitario para la mejora de su portal web del [http://www.iute.tec.ve/ IUTE].
+#summary Proyecto social comunitario para la mejora del portal web IUTE.
 #labels Featured,Phase-QA,Phase-Implementation,Phase-Deploy
 
 = Introducción =
