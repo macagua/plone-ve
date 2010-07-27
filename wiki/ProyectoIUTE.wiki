@@ -1,9 +1,9 @@
-#summary One-sentence summary of this page.
+#summary Proyecto social comunitario para la mejora de su portal web del [http://www.iute.tec.ve/ IUTE].
 #labels Featured,Phase-QA,Phase-Implementation,Phase-Deploy
 
 = Introducción =
 
-Este proyecto social comunitario, tiene como sentido acompañar al departamento de sistematización del [http://www.iute.tec.ve/ Instituto Universitario Tecnológico de Ejido -IUTE], en estado Mérida, en los procesos de adopción de su portal web.
+Este proyecto social comunitario, tiene como sentido acompañar al departamento de sistematización del [http://www.iute.tec.ve/ Instituto Universitario Tecnológico de Ejido - IUTE], en estado Mérida, en los procesos de mejora de su portal web.
 
 = Detalles =
 
