@@ -29,7 +29,7 @@ Previamente Javier E. Leon estudiante de informática del PNFI de dicho institut
 
 == Avances ==
 
-  * Se le presento la propuesta a la comisión de modernización del IUTEP, específicamente al Coordinador Académico quien se comprometió a organizar una reunión con el personal encargado de la administración de la pagina web y diferentes infraestructuras tecnológicas para presentar y discutir la propuesta.
+  * 27/07/2010 - Se le presento la propuesta a la comisión de modernización del IUTEP, específicamente al Coordinador Académico quien se comprometió a organizar una reunión con el personal encargado de la administración de la pagina web y diferentes infraestructuras tecnológicas para presentar y discutir la propuesta.
 
 = Tecnologias propuestas =
 
