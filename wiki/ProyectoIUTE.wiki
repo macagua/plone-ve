@@ -28,7 +28,11 @@ Previamente personal del departamento de sistematización del IUTE, participo en
 
   * "Flamel Canto" <flamelcanto at gmail dot com> - Departamento de sistematización IUTE.
   * "Leonardo J. Caballero G." <lcaballero at cenditel dot gob dot ve> - CENDITEL.
+  * "Nakary Carrillo" <nakary_carrillo97 at hotmail dot com> - Departamento de sistematización IUTE.
 
-== Colaboradores ==
+== Avances IUTE ==
 
-  * Puedes ser tu!!! simplemente anota tu nombre aquí y contactamos a los correos previos.
+  * Instalar localmente en su Intranet un Plone con Instalador Unificado = HECHO.
+  * Estudiar y evaluar posibles productos de Plone para sus necesidades = HECHO y AUMENTANDO.
+  * Migrar sus contenidos hacia una instalación de Plone = 40%.
+  * Sustituir en sitio actual de [http://www.iute.tec.ve/ IUTE] por un Plone ;) .
