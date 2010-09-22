@@ -35,7 +35,7 @@ Previamente Javier E. Leon estudiante de informática del PNFI de dicho institut
 
   * [http://canaima.softwarelibre.gob.ve/ Canaima GNU/Linux 2.0.4 o superior] como sistema de desarrollo base. 
   * [http://plone.org/countries/conosur/documentacion/instalando-plone-3-con-el-instalador-unificado Plone 3.3.5 como instalador unificado]. 
-  * Evaluar las tecnologias disponibles en [http://www.slideshare.net/lcaballero/plone-cms-como-herramienta-de-apoyo-a-los-procesos-educativos Plone CMS, como herramienta de apoyo a los procesos educativos].
+  * Evaluar las tecnologías disponibles en [http://www.slideshare.net/lcaballero/plone-cms-como-herramienta-de-apoyo-a-los-procesos-educativos Plone CMS, como herramienta de apoyo a los procesos educativos].
 
 = Responsables =
 
@@ -45,3 +45,11 @@ Previamente Javier E. Leon estudiante de informática del PNFI de dicho institut
 == Colaboradores ==
 
   * Puedes ser tu!!! simplemente anota tu nombre aquí y contactamos a los correos previos.
+
+
+== Descargar código fuente ==
+Para descargar el código de la configuraciones buildout de este sitio, ejecute e siguiente comando:
+ 
+{{{
+svn checkout http://plone-ve.googlecode.com/svn/trunk/PloneEduIUTEP/ PloneEduIUTEP
+}}}
