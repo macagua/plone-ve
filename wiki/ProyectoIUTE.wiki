@@ -28,6 +28,7 @@ Previamente personal del departamento de sistematización del IUTE, participo en
 
   * "Flamel Canto" <flamelcanto at gmail dot com> - Departamento de sistematización IUTE.
   * "Nakary Carrillo" <nakary_carrillo97 at hotmail dot com> - Departamento de sistematización IUTE.
+  * "Syra C. Lacruz G." <syralg at gmail dot com> - GUSLA.
   * "Leonardo J. Caballero G." <lcaballero at cenditel dot gob dot ve> - CENDITEL.
 
 == Avances IUTE ==
@@ -39,26 +40,29 @@ Previamente personal del departamento de sistematización del IUTE, participo en
 
 == Instalaciones ==
 
-  * Plone 3.3.5 (Con el Instalador Unificado).
-  * CMF 2.1.2
-  * Zope (unreleased version, python 2.4.6, linux2)
-  * Python 2.4.6 (#1, Aug 5 2010, 11:08:12) [GCC 4.3.2]
-  * PIL 1.1.6
-  * Tema Visual                    == UWOSH.thememain 0.5.1 
-  * Copia de Revisión para Trabajo == Working Copy Support (Iterate) 1.2.3
-  * Organización Universitaria     == FacultyStaffDirectory
-  * Licenciamiento                 == ContentLicensing 2.2.1dev-r0
-  * Mapas, GeoLocación             == Maps  2.0.4
-  * Calendarios                    == p4a.plonecalendar 2.0a8dev
-  * Banners dinámicos              == Carousel for Plone 1.3
-  * Estadísticas                   == iw.sitestat 1.0.0-beta-2
-  * Cache                          ==
-  * Personalizacion                == Collage
-  * Previsualizacion de Documentos == ARFilePreview
-  * Bitácoras/Blogs                == Quills
-  * Guía Primeros Pasos            == Amberjack
-  * Dispositivos Móviles           == go.mobile
-  * Servidor LDAP                  == plone.app.ldap
+=== Servicios disponibles ===
+
+  * *Servidor LDAP* = OpenLDAP
+  * *Plone 3.3.5* (Con el Instalador Unificado).
+    * CMF 2.1.2
+    * Zope (2.10.x, python 2.4.6, linux2)
+    * Python 2.4.6 (#1, Aug 5 2010, 11:08:12) [GCC 4.3.2]
+    * PIL 1.1.6
+  * *Tema Visual* = UWOSH.thememain 0.5.1 
+  * *Copia de Revisión para Trabajo* = Working Copy Support (Iterate) 1.2.3
+  * *Organización Universitaria* = FacultyStaffDirectory
+  * *Licenciamiento de contenidos* = ContentLicensing 2.2.1dev-r0
+  * *Mapas, GeoLocación* = Maps  2.0.4
+  * *Calendarios* = p4a.plonecalendar 2.0a8dev
+  * *Banners dinámicos* = Carousel for Plone 1.3
+  * *Estadísticas* = iw.sitestat 1.0.0-beta-2
+  * *Cacheo de contenidos* = CacheFu
+  * *Personalizacion* = Collage
+  * *Previsualizacion de Documentos* = ARFilePreview
+  * *Bitácoras/Blogs* = Quills
+  * *Guía Primeros Pasos* = Amberjack
+  * *Dispositivos Móviles* = plone.gomobile
+  * *Integración con Servidor LDAP* = plone.app.ldap
 
 == Descargar código fuente ==
 Para descargar el código de la configuraciones buildout de este sitio, ejecute e siguiente comando:
