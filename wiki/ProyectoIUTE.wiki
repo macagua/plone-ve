@@ -70,3 +70,6 @@ Para descargar el código de la configuraciones buildout de este sitio, ejecute 
 {{{
 svn checkout http://plone-ve.googlecode.com/svn/trunk/PloneEduIUTE/ PloneEduIUTE
 }}}
+
+== Instalación / Configuración ==  
+  * [http://code.google.com/p/plone-ve/source/browse/trunk/PloneEduIUTE/LEEME.txt LEEME de PloneEduIUTE].
