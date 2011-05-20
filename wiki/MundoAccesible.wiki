@@ -36,8 +36,8 @@ Por definir.
 Para descargar el código de la configuraciones buildout de este sitio, ejecute e siguiente comando:
  
 {{{
-svn checkout http://plone-ve.googlecode.com/svn/trunk/PloneEduIUTE/ PloneEduIUTE
+svn checkout http://plone-ve.googlecode.com/svn/trunk/UnMundoAccesible/ UnMundoAccesible
 }}}
 
 == Instalación / Configuración ==  
-  * [http://code.google.com/p/plone-ve/source/browse/trunk/PloneUnMundoAccesible/LEEME.txt LEEME de PloneUnMundoAccesible].
+  * [http://code.google.com/p/plone-ve/source/browse/trunk/UnMundoAccesible/LEEME.txt LEEME de UnMundoAccesible].
