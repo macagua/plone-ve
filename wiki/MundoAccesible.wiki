@@ -25,11 +25,12 @@ Por definir.
 == Responsables ==
 
   * "Jose Subero" <arawako at gmail dot com> - Plone Venezuela.
+  * "Nerissa Aguilera" <naguilera1008 at gmail dot com> - Un Mundo Accesible.
   * "Leonardo J. Caballero G." <leonardocaballero at gmail dot com> - Plone Venezuela.
 
-== Avances IUTE ==
+== Avances ==
 
-  * Usnado .
+  * Construir propuesta del sitio con las configuraciones hechas para [http://code.google.com/p/plone-ve/wiki/ProyectoIUTE ProyectoIUTE].
 
 
 == Descargar código fuente ==
