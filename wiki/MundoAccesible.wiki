@@ -1,0 +1,43 @@
+#summary Proyecto social comunitario para la mejora del portal web de Un Mundo Accesible.
+#labels Phase-Requirements,Phase-Design
+
+= Introducción =
+
+Este proyecto social comunitario, tiene como sentido acompañar a la comunidad  [http://www.mundoaccesible.org.ve/ Un Mundo Accesible], en los procesos de mejora de su portal web.
+
+= Detalles =
+
+Por definir.
+
+= Necesidades =
+
+  * Cumplimiento de las normas de accesibilidad de la W3C.
+  * Establecer la información organizacional de la comunidad y los medios de contactos con estos.
+  * Sistemas de cronograma de noticias, eventos e actividades de la comunidad.
+  * Publicación e integración con mecanismos Web 2.0, para poder difundir la información generada por la comunidad.
+
+== Compromisos ==
+
+  * Estudiar y evaluar posibles productos de Plone para sus necesidades.
+  * Migrar sus contenidos de su sitio Web actual hacia una instalación de Plone.
+  * Sustituir en sitio actual de [http://www.mundoaccesible.org.ve/ Un Mundo Accesible] por un Plone ;) .
+
+== Responsables ==
+
+  * "Jose Subero" <arawako at gmail dot com> - Plone Venezuela.
+  * "Leonardo J. Caballero G." <leonardocaballero at gmail dot com> - Plone Venezuela.
+
+== Avances IUTE ==
+
+  * Usnado .
+
+
+== Descargar código fuente ==
+Para descargar el código de la configuraciones buildout de este sitio, ejecute e siguiente comando:
+ 
+{{{
+svn checkout http://plone-ve.googlecode.com/svn/trunk/PloneEduIUTE/ PloneEduIUTE
+}}}
+
+== Instalación / Configuración ==  
+  * [http://code.google.com/p/plone-ve/source/browse/trunk/PloneUnMundoAccesible/LEEME.txt LEEME de PloneUnMundoAccesible].
