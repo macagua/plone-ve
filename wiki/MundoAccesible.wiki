@@ -31,10 +31,13 @@ Además recientemente en Venezuela el MCT aprobó en la [http://www.cnti.gob.ve/
   * "Jose Subero" <arawako at gmail dot com> - Plone Venezuela.
   * "Nerissa Aguilera" <naguilera1008 at gmail dot com> - Un Mundo Accesible.
   * "Leonardo J. Caballero G." <leonardocaballero at gmail dot com> - Plone Venezuela.
+  * "Javier León." <jel1284 at gmail dot com> - Plone Venezuela.
 
 == Equipo de trabajo ==
 === Desarrollo ===
   * "Leonardo J. Caballero G." <leonardocaballero at gmail dot com> - Plone Venezuela.
+* "Javier León." <jel1284 at gmail dot com> - Plone Venezuela.
+
 === Apariencias ===
   * "Jose Subero" <arawako at gmail dot com> - Plone Venezuela.
 === Asesores ===
